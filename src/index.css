@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Arial", sans-serif;
+}
+.navbar {
+  position: relative;
+  margin-top: 20px;
+  align-items: center;
+}
+.nav-logo {
+  margin-left: 70px;
+}
+.nav-logo p {
+  font-family: "Poppins", serif;
+  color: #ff355e;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 7px;
+}
+.stays {
+  margin-left: 180px;
+}
+.stays button {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.st {
+  font-family: "Inter", sans-serif;
+  color: #8d8d8d;
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+}
+.exp {
+  font-family: "Inter", sans-serif;
+  color: #8d8d8d;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  padding-top: 12px;
+  margin: 0 2px;
+  border-radius: 50%;
+}
+.parent {
+  margin-right: 50px;
+}
+.home {
+  padding: 10px 20px;
+  height: 40px;
+  width: 170px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #535353;
+}
+.signup {
+  border: 1px solid #cccccc;
+  padding-top: 10px;
+  height: 40px;
+  width: 80px;
+  border-radius: 25px;
+}
+.signup .FontAwesomeIcon {
+  margin: 0px 10px;
+}
+
+.signup:hover {
+  box-shadow: 5px 5px 5px #cfcfcf;
+}
+.icon:hover {
+  background-color: #f0f0f0;
+}
+.home:hover {
+  background-color: #f0f0f0;
+}
+.st:hover {
+  background-color: #f0f0f0;
+}
+.exp:hover {
+  background-color: #f0f0f0;
+}
